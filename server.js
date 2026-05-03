@@ -95,6 +95,10 @@ app.use("/api", nursebookingRoutes);
 // Static
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
+app.get("/", (req, res) => {
+  res.send("CareSync API is running 🚀");
+});
+
 // ✅ CREATE SERVER FROM APP
 const server = http.createServer(app);
 
