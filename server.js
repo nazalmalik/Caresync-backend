@@ -50,7 +50,7 @@ const app = express();
 
 // ✅ CORS
 app.use(cors({
-  origin: "https://caresynccare.netlify.app/",
+  origin: "https://caresynccare.netlify.app",
   credentials: true,
 }));
 
