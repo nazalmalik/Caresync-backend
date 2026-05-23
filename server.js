@@ -52,7 +52,8 @@ const app = express();
 app.use(cors({
   origin: [
     "https://caresyncsmartcare.netlify.app",
-    "https://caresynccare.netlify.app"
+    "https://caresynccare.netlify.app",
+    "https://frontend-caresync.vercel.app"
   ],
   credentials: true,
 }));
